@@ -1,0 +1,37 @@
+
+Łączenie tablic
+Napisz program, w którym wygenerujesz dwie tablice dwuwymiarowe liczb naturalnych o rozmiarach i wartościach
+losowanych z przedziału <1, 5>. Następnie tak otrzymane tablice połącz w jedną tablicę dwuwymiarową
+liczb naturalnych. Poniżej przedstawiono przykład takiego łączenia.
+
+Przykładowa tablica nr 1:
+2 3 4
+1 3 2
+Przykładowa tablica nr 2:
+8 9
+4 5
+Tablica wynikowa:
+2 3 4
+1 3 2
+8 9 0
+4 5 0
+
+W przypadku dwóch tablic o niejednakowej ilości kolumn brakujące miejsca należy wypełnić zerami.
+Dla tablicy wynikowej wykonaj następujące polecenia:
+a. Wyznacz ile elementów w tablicy jest liczbami pierwszymi – do sprawdzenia czy liczba jest
+pierwsza zastosuj zaimplementowane przez Ciebie sito Eratostenesa.
+b. Wyznacz numer wiersza i numer kolumny elementu, którego suma elementów sąsiednich jest największa –
+zakładamy, że jeżeli 2 element nie znajduje się przy „krawędzi” tablicy posiada ośmiu sąsiadów.
+c. Wyznacz największy element w tablicy – jeżeli jest takich kilka to wynikiem jest element
+znajdujący się najbliżej „lewego górnego rogu” tablicy.
+d. Wyznacz sumę wartości, które należy dodać do wszystkich pozostałych elementów oprócz
+elementu w podpunkcie c, żeby te elementy miały taką samą wartość, jak obliczony największy element
+
+Przykładowa tablica:
+2 3 4
+1 3 2
+Największy element to 4.
+Poniżej na zielono wartości, które trzeba dodać do pozostałych elementów:
+2 + 2 3 + 1 4
+1 + 3 3 + 1 2 + 2
+Wynik: 2 + 1 + 3 + 1 + 2 = 9

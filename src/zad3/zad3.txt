@@ -1,0 +1,15 @@
+
+Ciągi
+Napisz program, w którym przygotujesz n ciągów liczbowych.
+Liczba n to liczba naturalna losowana z przedziału <3, 7>.
+Każdy ciąg zawiera w sobie liczby naturalne losowane z przedziału <100, 999> i
+posiada ilość elementów losowaną z przedziału <5, 10>. Dla przygotowanych ciągów liczbowych wykonaj polecenia:
+a. Znajdź takie dwa ciągi, które posiadają najwięcej wspólnych elementów.
+Uwaga: jeżeli elementy się powtarzają to uwzględniamy je tylko jeden raz.
+b. Wyznacz ciąg o największej ilości elementów oraz ciąg o najmniejszej ilości elementów.
+Następnie spośród tych dwóch ciągów wybierz ciąg o największej średniej arytmetycznej wartości elementów. Zakładając, że do ciągu możemy dodawać nowe elementy tylko i wyłącznie o tej samej wartości podaj informację, ile elementów i o jakiej wartości należy dodać do ciągu o mniejszej średniej arytmetycznej, żeby ta średnia przewyższyła średnią arytmetyczną ciągu o większej średniej arytmetycznej.
+c. Wyznacz ciąg, w którym występuje najdłuższy rosnący podciąg arytmetyczny
+d. Wyznacz ciąg, w którym występuje najwięcej elementów, w których suma cyfr elementu
+jest co najmniej 2 razy mniejsza od wartości tego elementu.
+e. Wyznacz ciąg o największej sumie elementów. Podaj jakie sumy wartości należałoby dodać do każdego z
+ pozostałych ciągów, żeby sumy wartości w każdym ciągu były takie same jak w ciągu o największej sumie elementów.

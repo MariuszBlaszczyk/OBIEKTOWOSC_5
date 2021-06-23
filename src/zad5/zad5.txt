@@ -1,0 +1,18 @@
+
+Generator napisu
+Napisz program, który pozwoli wygenerować napis na podstawie algorytmu opisanego poniżej.
+Na początek losowana jest liczba n, która jest liczbą naturalną z przedziału <10, 40>.
+Liczba oznaczać będzie ilość znaków w generowanym napisie. Kolejny znak losowany jest z przedziału znaków <A, Z>.
+Wylosowany znak może być dołączony na końcu napisu wynikowego tylko wtedy, jeżeli do tej pory wystąpił
+mniej niż m razy (m to liczba naturalna losowana z przedziału <1, 3>). W przeciwnym razie należy
+powtórzyć losowanie znaku. Dla wyznaczonego napisu wykonaj następujące polecenia:
+a. Wyznacz znak, którego suma odległości wystąpień jest największa. Przez sumę odległości wystąpień
+rozumiemy ilość pozycji w napisie pomiędzy pierwszym wystąpieniem, a drugim wystąpieniem oraz ewentualna
+ilość pozycji pomiędzy drugim wystąpieniem oraz trzecim wystąpieniem. Jeżeli w napisie jest
+tylko jedno wystąpienie znaku to przyjmujemy wynik 0.
+b. Dla wybranego znaku, o ile występuje on w napisie, wyznacz najmniejszą możliwą łączną ilość pozycji,
+o które trzeba przesunąć wszystkie jego wystąpienia, żeby znalazły się na samym początku napisu
+jako pierwsze znaki tego napisu.
+c. Na podstawie posiadanego napisu wygeneruj nowy napis, który nazwiemy napisem symetrycznym.
+Napis symetryczny na i-tej pozycji posiada znak, który posiada taką samą różnicę w kodzie liczbowym
+od znaku A, jak różnica w kodzie liczbowym znaku na i-tej pozycji w napisie wejściowym od znaku Z.
