@@ -1,0 +1,16 @@
+1
+Szyfrowanie
+Napisz program, w którym dostarczony przez Ciebie napis zostanie zaszyfrowany z wykorzystaniem
+dostarczonego przez Ciebie napisu – klucza szyfrującego.
+Przykład napisu, który ma zostać zaszyfrowany:
+P A W E L M A K O T A
+Przykład klucza szyfrującego:
+K O T
+Algorytm szyfrujący:
+P A W E L M A K O T A
+K O T K O T K O T K O
+Dla tak przygotowanego zapisu szyfrowanie litery P na pierwszej pozycji polega na zastąpieniu jej
+samogłoską o najmniejszym kodzie liczbowym w przedziale pomiędzy literą K ( litera na odpowiadającej
+pierwszej pozycji wyrażenia szyfrującego ) oraz literą P ( litera na pierwszej pozycji słowa szyfrowanego ).
+Algorytm powtarzaj dla kolejnych znaków w napisie szyfrowanym. Zaimplementuj mechanizm, który
+pozwoli odszyfrować tak otrzymane wyrażenie.
