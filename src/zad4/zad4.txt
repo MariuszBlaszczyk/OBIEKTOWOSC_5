@@ -1,4 +1,4 @@
-1
+
 Szyfrowanie
 Napisz program, w którym dostarczony przez Ciebie napis zostanie zaszyfrowany z wykorzystaniem
 dostarczonego przez Ciebie napisu – klucza szyfrującego.
