@@ -1,6 +1,6 @@
 package zad1.app;
 
-import zad1.io.Generate;
+import zad1.logic.Generate;
 
 public class App {
 

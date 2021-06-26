@@ -1,4 +1,4 @@
-package zad1.io;
+package zad1.logic;
 
 import zad1.data.Subtitle;
 
