@@ -15,14 +15,6 @@ public class Generate {
     }
 
 
-    public static String solution(int number) {
-        if (number == 0)
-            return Subtitle.ZERO;
-
-        return generate(number).trim();
-    }
-
-
     private static String generate1To99(int number) {
         if (number == 0)
             return "";
@@ -48,6 +40,14 @@ public class Generate {
             return generate(number / 100) + "set" + generate(number % 100);
         }
         return generate1To99(number);
+    }
+
+
+    public static String solution(int number) {
+        if (number == 0)
+            return Subtitle.ZERO;
+
+        return generate(number).trim();
     }
 
 }
