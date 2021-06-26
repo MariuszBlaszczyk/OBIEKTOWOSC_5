@@ -23,7 +23,6 @@ public class Generate {
     }
 
 
-
     private static String generate1To99(int number) {
         if (number == 0)
             return "";
@@ -38,7 +37,6 @@ public class Generate {
     }
 
 
-
     public static String generate(int number) {
         if (number >= 1000000000) {
             return generate(number / 1000000000) + " billion " + generate(number % 1000000000);
@@ -49,24 +47,9 @@ public class Generate {
         } else if (number >= 100) {
             return generate(number / 100) + " hundred " + generate(number % 100);
         }
-
         String result = generate1To99(number);
         return result;
     }
 
-    private static String generate1To99(int number) {
-        if (number == 0)
-            return "";
-
-        if (number <= 9)
-            return Subtitle.oneToNine[number - 1];
-        else if (number <= 19)
-            return Subtitle.tenToNineteen[number % 10];
-        else {
-            String s = Subtitle.tensNames[number / 10 - 1] + " " + generate1To99(number % 10);
-            return s;
-        }
-    }
-
-
+  
 }
