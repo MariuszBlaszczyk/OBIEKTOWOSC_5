@@ -20,11 +20,11 @@ public class Generate {
             return "";
 
         if (number <= 9)
-            return Subtitle.oneToNine[number - 1];
+            return Subtitle.ONE_TO_NINE[number - 1];
         else if (number <= 19)
-            return Subtitle.tenToNineteen[number % 10];
+            return Subtitle.TEN_TO_NINETEEN[number % 10];
         else {
-            return Subtitle.tensNames[number / 10 - 1] + " " + generate1To99(number % 10);
+            return Subtitle.TENS_NAMES[number / 10 - 1] + " " + generate1To99(number % 10);
         }
     }
 

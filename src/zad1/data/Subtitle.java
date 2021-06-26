@@ -4,7 +4,7 @@ public class Subtitle {
 
     public static final String ZERO = "zero";
 
-    public static final String[] oneToNine = {
+        public static final String[] ONE_TO_NINE = {
             "jeden",
             "dwa",
             "trzy",
@@ -16,7 +16,7 @@ public class Subtitle {
             "dziewięć",
     };
 
-    public static final String[] tenToNineteen = {
+    public static final String[] TEN_TO_NINETEEN = {
             " dziesięć",
             " jedenaście",
             " dwanaście",
@@ -29,7 +29,7 @@ public class Subtitle {
             " dziewiętnaście"
     };
 
-    public static final String[] tensNames = {
+    public static final String[] TENS_NAMES = {
             " dziesięć",
             " dwadzieścia",
             " trzydzieści",
