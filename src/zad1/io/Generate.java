@@ -38,18 +38,17 @@ public class Generate {
 
 
     public static String generate(int number) {
-        if (number >= 1000000000) {
-            return generate(number / 1000000000) + " billion " + generate(number % 1000000000);
-        } else if (number >= 1000000) {
-            return generate(number / 1000000) + " million " + generate(number % 1000000);
-        } else if (number >= 1000) {
-            return generate(number / 1000) + " thousand " + generate(number % 1000);
-        } else if (number >= 100) {
-            return generate(number / 100) + " hundred " + generate(number % 100);
+        if (number >= 100 && number < 200) {
+            return "sto" + generate(number % 100);
+        } else if (number >= 200 && number < 300) {
+            return "dwieście" + generate(number % 100);
+        } else if (number >= 300 && number < 500) {
+            return generate(number / 100) + "sta " + generate(number % 100);
+        } else if (number >= 500) {
+            return generate(number / 100) + "set" + generate(number % 100);
         }
-        String result = generate1To99(number);
-        return result;
+        return generate1To99(number);
     }
 
-  
 }
+

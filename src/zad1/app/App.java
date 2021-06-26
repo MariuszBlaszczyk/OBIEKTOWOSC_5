@@ -13,6 +13,9 @@ public class App {
         int number = Generate.generateNumber(MIN, MAX);
         System.out.println("The number drawn is: " + number);
 
+        String result = Generate.solution(number);
+        System.out.println(result);
+
 
     }
 }
