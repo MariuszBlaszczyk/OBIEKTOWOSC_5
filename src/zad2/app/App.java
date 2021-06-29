@@ -1,15 +1,17 @@
 package zad2.app;
 
 import zad2.logic.ArrayOperations;
+import zad2.logic.Generate;
 
 public class App {
 
-    private final static int MIN = 1;
-    private final static int MAX = 5;
 
     public static void main(String[] args) {
 
-        int[][] array1 = ArrayOperations.createArray(MIN, MAX);
-        int[][] array2 = ArrayOperations.createArray(MIN, MAX);
+        int[][] array1 = Generate.generateArray();
+        int[][] array2 = Generate.generateArray();
+        int[][] array = ArrayOperations.concatArray(array1, array2);
+        ArrayOperations.showArray(array);
+
     }
 }

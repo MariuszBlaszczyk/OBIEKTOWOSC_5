@@ -1,7 +1,7 @@
 
 Łączenie tablic
 Napisz program, w którym wygenerujesz dwie tablice dwuwymiarowe liczb naturalnych o rozmiarach i wartościach
-losowanych z przedziału <1, 5>. Następnie tak otrzymane tablice połącz w jedną tablicę dwuwymiarową
+losowanych z przedziału <1, 9>. Następnie tak otrzymane tablice połącz w jedną tablicę dwuwymiarową
 liczb naturalnych. Poniżej przedstawiono przykład takiego łączenia.
 
 Przykładowa tablica nr 1:
