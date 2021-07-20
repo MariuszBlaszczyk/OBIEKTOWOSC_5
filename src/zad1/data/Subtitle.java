@@ -4,7 +4,7 @@ public class Subtitle {
 
     public static final String ZERO = "zero";
 
-        public static final String[] ONE_TO_NINE = {
+    public static final String[] ONE_TO_NINE = {
             "jeden",
             "dwa",
             "trzy",
