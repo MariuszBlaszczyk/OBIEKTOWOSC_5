@@ -7,7 +7,10 @@ posiada ilość elementów losowaną z przedziału <5, 10>. Dla przygotowanych c
 a. Znajdź takie dwa ciągi, które posiadają najwięcej wspólnych elementów.
 Uwaga: jeżeli elementy się powtarzają to uwzględniamy je tylko jeden raz.
 b. Wyznacz ciąg o największej ilości elementów oraz ciąg o najmniejszej ilości elementów.
-Następnie spośród tych dwóch ciągów wybierz ciąg o największej średniej arytmetycznej wartości elementów. Zakładając, że do ciągu możemy dodawać nowe elementy tylko i wyłącznie o tej samej wartości podaj informację, ile elementów i o jakiej wartości należy dodać do ciągu o mniejszej średniej arytmetycznej, żeby ta średnia przewyższyła średnią arytmetyczną ciągu o większej średniej arytmetycznej.
+Następnie spośród tych dwóch ciągów wybierz ciąg o największej średniej arytmetycznej wartości elementów.
+Zakładając,że do ciągu możemy dodawać nowe elementy tylko i wyłącznie o tej samej wartości podaj informację,
+ile elementów i o jakiej wartości należy dodać do ciągu o mniejszej średniej arytmetycznej, żeby ta
+średnia przewyższyła średnią arytmetyczną ciągu o większej średniej arytmetycznej.
 c. Wyznacz ciąg, w którym występuje najdłuższy rosnący podciąg arytmetyczny
 d. Wyznacz ciąg, w którym występuje najwięcej elementów, w których suma cyfr elementu
 jest co najmniej 2 razy mniejsza od wartości tego elementu.
